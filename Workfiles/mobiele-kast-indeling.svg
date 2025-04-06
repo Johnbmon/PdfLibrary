@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Achtergrond en titel -->
+  <rect width="800" height="600" fill="white"/>
+  <text x="400" y="30" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Indeling Mobiele Elektrische Schakelkast</text>
+  
+  <!-- Schakelkast buitenaanzicht -->
+  <rect x="50" y="70" width="700" height="500" fill="#f0f0f0" stroke="black" stroke-width="3"/>
+  
+  <!-- Bovenaanzicht - Open kast -->
+  <text x="220" y="100" font-family="Arial" font-size="16" font-weight="bold">Bovenaanzicht - Open kast</text>
+  
+  <!-- Binnenkast - DIN rails en componenten -->
+  <rect x="100" y="120" width="600" height="250" fill="white" stroke="black" stroke-width="2"/>
+  
+  <!-- DIN rail 1 - Voedingscircuits -->
+  <rect x="120" y="140" width="560" height="20" fill="#d3d3d3" stroke="black" stroke-width="1"/>
+  <text x="125" y="135" font-family="Arial" font-size="12">DIN-rail 1</text>
+  
+  <!-- 400V componenten -->
+  <rect x="130" y="137" width="40" height="26" fill="#b3c6ff" stroke="black" stroke-width="1"/>
+  <text x="150" y="153" text-anchor="middle" font-family="Arial" font-size="10">WS</text>
+  
+  <rect x="180" y="137" width="40" height="26" fill="#b3c6ff" stroke="black" stroke-width="1"/>
+  <text x="200" y="153" text-anchor="middle" font-family="Arial" font-size="10">ALA</text>
+  
+  <rect x="230" y="137" width="40" height="26" fill="#b3c6ff" stroke="black" stroke-width="1"/>
+  <text x="250" y="153" text-anchor="middle" font-family="Arial" font-size="10">MBS</text>
+  
+  <!-- Sitop voeding -->
+  <rect x="300" y="130" width="80" height="40" fill="#ffd700" stroke="black" stroke-width="1"/>
+  <text x="340" y="155" text-anchor="middle" font-family="Arial" font-size="10">SITOP</text>
+  <text x="340" y="168" text-anchor="middle" font-family="Arial" font-size="10">PSU300S</text>
+  
+  <!-- 230V componenten -->
+  <rect x="400" y="137" width="40" height="26" fill="#ffb3b3" stroke="black" stroke-width="1"/>
+  <text x="420" y="153" text-anchor="middle" font-family="Arial" font-size="10">WS</text>
+  
+  <rect x="450" y="137" width="40" height="26" fill="#ffb3b3" stroke="black" stroke-width="1"/>
+  <text x="470" y="153" text-anchor="middle" font-family="Arial" font-size="10">ALA</text>
+  
+  <!-- Alt. Sitop (optioneel) -->
+  <rect x="530" y="137" width="60" height="26" fill="#ffd700" stroke="black" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="560" y="153" text-anchor="middle" font-family="Arial" font-size="10">Alt. PSU</text>
+  
+  <!-- DIN rail 2 - Stuurstroom -->
+  <rect x="120" y="190" width="560" height="20" fill="#d3d3d3" stroke="black" stroke-width="1"/>
+  <text x="125" y="185" font-family="Arial" font-size="12">DIN-rail 2</text>
+  
+  <!-- Relais en klemmenstroken -->
+  <rect x="130" y="187" width="30" height="26" fill="#b3ffb3" stroke="black" stroke-width="1"/>
+  <text x="145" y="203" text-anchor="middle" font-family="Arial" font-size="10">R1</text>
+  
+  <rect x="170" y="187" width="30" height="26" fill="#b3ffb3" stroke="black" stroke-width="1"/>
+  <text x="185" y="203" text-anchor="middle" font-family="Arial" font-size="10">R2</text>
+  
+  <rect x="210" y="187" width="30" height="26" fill="#b3ffb3" stroke="black" stroke-width="1"/>
+  <text x="225" y="203" text-anchor="middle" font-family="Arial" font-size="10">R3</text>
+  
+  <!-- Klemmenstroken -->
+  <rect x="270" y="187" width="200" height="26" fill="#e6e6e6" stroke="black" stroke-width="1"/>
+  <text x="370" y="203" text-anchor="middle" font-family="Arial" font-size="10">Klemmenstroken</text>
+  
+  <!-- Kabelgoot -->
+  <rect x="120" y="240" width="560" height="15" fill="#c0c0c0" stroke="black" stroke-width="1"/>
+  <text x="400" y="251" text-anchor="middle" font-family="Arial" font-size="10">Kabelgoot</text>
+  
+  <!-- Aarding -->
+  <rect x="120" y="280" width="120" height="30" fill="#a3e6a3" stroke="black" stroke-width="1"/>
+  <text x="180" y="300" text-anchor="middle" font-family="Arial" font-size="12">Aardingsrail</text>
+  
+  <!-- Interne bekabeling -->
+  <path d="M150,160 C150,220 140,230 130,240" stroke="blue" stroke-width="1" fill="none"/>
+  <path d="M420,160 C420,210 400,230 350,240" stroke="red" stroke-width="1" fill="none"/>
+  <path d="M250,160 C300,180 320,210 300,240" stroke="black" stroke-width="1" fill="none"/>
+  
+  <!-- Vooraanzicht - Gesloten kast -->
+  <text x="220" y="400" font-family="Arial" font-size="16" font-weight="bold">Vooraanzicht - Gesloten frontpaneel</text>
+  
+  <!-- Frontpaneel -->
+  <rect x="100" y="420" width="280" height="150" fill="#e6e6e6" stroke="black" stroke-width="2"/>
+  
+  <!-- Indicatielampjes -->
+  <circle cx="150" cy="440" r="10" stroke="black" stroke-width="1" fill="#b3ffb3"/>
+  <text x="150" y="443" text-anchor="middle" font-family="Arial" font-size="10">24V</text>
+  
+  <circle cx="190" cy="440" r="10" stroke="black" stroke-width="1" fill="#b3c6ff"/>
+  <text x="190" y="443" text-anchor="middle" font-family="Arial" font-size="10">400V</text>
+  
+  <circle cx="230" cy="440" r="10" stroke="black" stroke-width="1" fill="#ffb3b3"/>
+  <text x="230" y="443" text-anchor="middle" font-family="Arial" font-size="10">230V</text>
+  
+  <!-- Labels voor indicatielampjes -->
+  <text x="150" y="460" text-anchor="middle" font-family="Arial" font-size="10">OK</text>
+  <text x="190" y="460" text-anchor="middle" font-family="Arial" font-size="10">OK</text>
+  <text x="230" y="460" text-anchor="middle" font-family="Arial" font-size="10">OK</text>
+  
+  <!-- Noodstop -->
+  <circle cx="150" cy="500" r="15" stroke="black" stroke-width="2" fill="#ff0000"/>
+  <text x="150" y="505" text-anchor="middle" font-family="Arial" font-size="12" fill="white">STOP</text>
+  <text x="150" y="525" text-anchor="middle" font-family="Arial" font-size="10">Noodstop</text>
+  
+  <!-- Aan/uit knoppen -->
+  <rect x="200" y="490" width="60" height="30" rx="5" fill="#80cc80" stroke="black" stroke-width="1"/>
+  <text x="230" y="510" text-anchor="middle" font-family="Arial" font-size="12">START</text>
+  
+  <rect x="280" y="490" width="60" height="30" rx="5" fill="#cc8080" stroke="black" stroke-width="1"/>
+  <text x="310" y="510" text-anchor="middle" font-family="Arial" font-size="12">STOP</text>
+  
+  <!-- Zijaanzicht - Aansluitingen -->
+  <text x="590" y="400" font-family="Arial" font-size="16" font-weight="bold">Zijaanzicht - Aansluitingen</text>
+  
+  <!-- Zijpaneel -->
+  <rect x="420" y="420" width="280" height="150" fill="#e6e6e6" stroke="black" stroke-width="2"/>
+  
+  <!-- 400V CEE-ingang -->
+  <rect x="440" y="440" width="60" height="30" rx="5" fill="#b3c6ff" stroke="black" stroke-width="1"/>
+  <text x="470" y="460" text-anchor="middle" font-family="Arial" font-size="10">400V IN</text>
+  
+  <!-- 230V Stekkeringang -->
+  <rect x="440" y="490" width="60" height="30" rx="5" fill="#ffb3b3" stroke="black" stroke-width="1"/>
+  <text x="470" y="510" text-anchor="middle" font-family="Arial" font-size="10">230V IN</text>
+  
+  <!-- 400V CEE-uitgang -->
+  <rect x="530" y="440" width="60" height="30" rx="5" fill="#b3c6ff" stroke="black" stroke-width="1"/>
+  <text x="560" y="460" text-anchor="middle" font-family="Arial" font-size="10">400V UIT</text>
+  
+  <!-- 230V WCD-uitgang -->
+  <rect x="530" y="490" width="60" height="30" rx="5" fill="#ffb3b3" stroke="black" stroke-width="1"/>
+  <text x="560" y="510" text-anchor="middle" font-family="Arial" font-size="10">230V UIT</text>
+  
+  <!-- Motoraansluiting -->
+  <rect x="620" y="465" width="60" height="30" rx="5" fill="#b3ffb3" stroke="black" stroke-width="1"/>
+  <text x="650" y="485" text-anchor="middle" font-family="Arial" font-size="10">MOTOR</text>
+  
+  <!-- Legenda -->
+  <text x="650" y="130" font-family="Arial" font-size="14" font-weight="bold">Legenda</text>
+  
+  <rect x="650" y="145" width="15" height="15" fill="#b3c6ff" stroke="black" stroke-width="1"/>
+  <text x="670" y="157" font-family="Arial" font-size="12" text-anchor="start">400V componenten</text>
+  
+  <rect x="650" y="170" width="15" height="15" fill="#ffb3b3" stroke="black" stroke-width="1"/>
+  <text x="670" y="182" font-family="Arial" font-size="12" text-anchor="start">230V componenten</text>
+  
+  <rect x="650" y="195" width="15" height="15" fill="#b3ffb3" stroke="black" stroke-width="1"/>
+  <text x="670" y="207" font-family="Arial" font-size="12" text-anchor="start">24V stuurstroom</text>
+  
+  <rect x="650" y="220" width="15" height="15" fill="#ffd700" stroke="black" stroke-width="1"/>
+  <text x="670" y="232" font-family="Arial" font-size="12" text-anchor="start">Voedingen</text>
+  
+  <rect x="650" y="245" width="15" height="15" fill="#d3d3d3" stroke="black" stroke-width="1"/>
+  <text x="670" y="257" font-family="Arial" font-size="12" text-anchor="start">DIN-rails</text>
+</svg>
